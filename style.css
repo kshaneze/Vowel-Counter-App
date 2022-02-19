@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.input {
+  width: 1000px;
+  padding: 8px;
+  word-wrap: break-word;
+}
+
+.button {
+  padding: 7px 20px 7px 20px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(10, 85, 10);
+  font-size: 15px;
+  border: 2px solid rgb(60, 143, 60, 0.3);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
