@@ -3,8 +3,6 @@
 const form = document.querySelector('form');
 const input = document.querySelector('.input');
 
-const vowels = ['a', 'e', 'i', 'o', 'u'];
-
 input.focus();
 
 form.addEventListener('submit', function (e) {
